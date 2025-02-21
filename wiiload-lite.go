@@ -17,7 +17,7 @@ const (
 	FileChunkSize       = 1024 * 128
 )
 
-const usage = "usage: wiiload ip_address file_path"
+const usage = "usage: wiiload-lite ip_address file_path"
 
 func main() {
 	if len(os.Args) != 3 {
