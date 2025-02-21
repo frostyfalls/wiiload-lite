@@ -5,5 +5,5 @@ This is a simple reimplemention of the Wiiload protocol for the Homebrew Channel
 ## Usage
 
 ```
-wiiload_lite ip_address file_path
+wiiload_lite file_path ip_address
 ```
