@@ -12,12 +12,12 @@ import (
 )
 
 const (
+	usage               = "usage: wiiload_lite file_path ip_address"
+
 	WiiloadVersionMajor = 0
 	WiiloadVersionMinor = 5
 	FileChunkSize       = 1024 * 128
 )
-
-const usage = "usage: wiiload_lite file_path ip_address"
 
 func main() {
 	if len(os.Args) != 3 {
