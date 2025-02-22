@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	usage               = "usage: wiiload_lite file_path ip_address"
+	usage = "usage: wiiload_lite file_path ip_address"
 
 	WiiloadVersionMajor = 0
 	WiiloadVersionMinor = 5
